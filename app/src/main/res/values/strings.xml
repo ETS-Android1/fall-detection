@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Fall detection</string>
+    <string name="scan">Bluetooth on</string>
+    <string name="off">Bluetooth off</string>
+    <string name="pairedBtn">Show paired devices</string>
+    <string name="discover">Discover new devices</string>
+</resources>
