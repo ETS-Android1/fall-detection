@@ -1,8 +1,14 @@
 *.iml
 .gradle
 /local.properties
-/.idea
+.idea/
+.idea
 .DS_Store
 /build
 /captures
 .externalNativeBuild
+
+
+# Ignore everything in this directory
+target/
+logs/
