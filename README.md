@@ -22,3 +22,7 @@ In order to read accelerometer values from the ESP32 development board, we need 
 
 ### 💎  ESP32 Board
 ![ESP32](Utilities/ESP32.PNG)
+
+### 💎  Pictures
+![Picture 1](Utilities/IMAG0601.jpg)
+![Picture 2](Utilities/IMAG0602.jpg)
