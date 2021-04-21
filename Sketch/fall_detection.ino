@@ -30,7 +30,7 @@ void displaySensorDetails(void)
   Serial.print  ("Resolution:   "); Serial.print(sensor.resolution); Serial.println(" m/s^2");
   Serial.println("------------------------------------");
   Serial.println("");
-  delay(3000);
+  delay(7000);
 }
 
 void setup(void)
@@ -62,6 +62,13 @@ void setup(void)
 
 void loop(void)
 {
+  if (SerialBT.available()) {
+    while (SerialBT.available()) {
+     Serial.write(SerialBT.read());
+    }
+    delay(5000);
+  }
+
   /* Get a new sensor event */
   sensors_event_t event;
   accel.getEvent(&event);
