@@ -8,9 +8,9 @@ Technical Details:
 * ESP32: Development board which comes with Wi-Fi, Bluetooth Low Energy and Bluetooth Classic
 * ADXL345 sensor: The ADXL345 is a small, thin, low power, 3-axis accelerometer with high resolution (13-bit) measurement at up to ±16g 
 
-ESP32 and ADXL345 sensor : In order to read accelerometer values from the ESP32 development board, we need to connect:
+🌀 ESP32 and ADXL345 sensor : 
 -----------------------------------------------------------------------------------------------------------------------
-
+In order to read accelerometer values from the ESP32 development board, we need to connect:
 1. GND pin of ADXL345 to one of the GND pin on the ESP32 development board
 2. 3v3 pin of ADXL345 to one of the 3v3 pin on the ESP32 development board
 3. SDA pin of ADXL345 to GPIO21 on the ESP32 development board
