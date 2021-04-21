@@ -2,11 +2,20 @@
 ### ❄ What it does
 Uses an accelerometer to detect a fall and send a ping using serial blue tooth communication to an Android app that on receiving the ping sends a SOS message to emergency contacts.
 
+🌀 Build and run : 
+------------------
+This project requires an ESP32 development board and an Android Phone. Build the application by running ./gradlew clean build command. Afterwards you can find in the build/output folder the artifact : app-debug.apk. You need to copy it to an Android based phone and install it. In Sketch folder you'll find fall_detection.ino file which contains the code that needs to be uploaded using Arduino IDE to the ESP32 development board.
+
+Components:
+------------------
+* ESP32: Development board which comes with Wi-Fi, Bluetooth Low Energy and Bluetooth Classic
+* ADXL345 sensor: The ADXL345 is a small, thin, low power, 3-axis accelerometer with high resolution (13-bit) measurement at up to ±16g 
+
+
 Technical Details:
 ------------------
 * Bluetooth : The App implements RFCOMM connection to the well-known SPP UUID 00001101-0000-1000-8000-00805F9B34FB
-* ESP32: Development board which comes with Wi-Fi, Bluetooth Low Energy and Bluetooth Classic
-* ADXL345 sensor: The ADXL345 is a small, thin, low power, 3-axis accelerometer with high resolution (13-bit) measurement at up to ±16g 
+
 
 🌀 ESP32 and ADXL345 sensor : 
 -----------------------------------------------------------------------------------------------------------------------
