@@ -19,3 +19,5 @@ In order to read accelerometer values from the ESP32 development board, we need 
 
 ### 💎  Schematics
 ![Fritzing](Sketch/Fritzing.png)
+
+![ESP32](Utilities/ESP32.png)
