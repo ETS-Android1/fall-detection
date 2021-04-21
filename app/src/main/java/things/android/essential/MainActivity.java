@@ -271,7 +271,7 @@ public class MainActivity extends Activity implements SerialListener {
 
     @Override
     public void onSerialIoError(Exception e) {
-        mHandler.obtainMessage(CONNECTING_STATUS, 3, -1, ", Connection lost")
+        mHandler.obtainMessage(CONNECTING_STATUS, 3, -1, " Connection lost")
                 .sendToTarget();
     }
 
