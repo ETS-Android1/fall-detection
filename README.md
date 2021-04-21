@@ -15,3 +15,7 @@ In order to read accelerometer values from the ESP32 development board, we need 
 2. 3v3 pin of ADXL345 to one of the 3v3 pin on the ESP32 development board
 3. SDA pin of ADXL345 to GPIO21 on the ESP32 development board
 4. SCL pin of ADXL345 to GPIO22 pin on the ESP32 development board
+
+
+### 💎  Schematics
+![Fritzing](Sketch/Fritzing.png)
