@@ -5,8 +5,8 @@ Uses an accelerometer to detect a fall and send a ping using serial blue tooth c
 🌀 Build and run : 
 ------------------
 This project requires an ESP32 development board and an Android Phone.
-> Build the application by running `./gradlew clean build` command. Afterwards you can find in the build/output folder the artifact : `app-debug.apk`. You need to copy it to an Android based phone and install it.
-> In Sketch folder you'll find `fall_detection.ino` file which contains the code that needs to be uploaded using Arduino IDE to the ESP32 development board.
+> 1. Build the application by running `./gradlew clean build` command. Afterwards you can find in the build/output folder the artifact : `app-debug.apk`. You need to copy it to an Android based phone and install it.
+> 2. In Sketch folder you'll find `fall_detection.ino` file which contains the code that needs to be uploaded using Arduino IDE to the ESP32 development board.
 
 
 Components:
